@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Learning Portal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Frontend Learning Portal</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="css.html">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript.html">JavaScript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="frameworks.html">Frameworks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <section>
+            <div class="jumbotron">
+                <h1 class="display-4">Welcome to the Frontend Learning Portal!</h1>
+                <p class="lead">Explore the world of frontend development with tutorials, examples, and interactive exercises.</p>
+                <hr class="my-4">
+                <p>Start learning today by diving into HTML, CSS, JavaScript, and popular frameworks.</p>
+                <a class="btn btn-primary btn-lg" href="html.html" role="button">Get Started with HTML</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Featured Tutorials</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/html.jpg" class="card-img-top" alt="HTML Tutorial">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML Basics</h5>
+                            <p class="card-text">Learn the fundamental elements of HTML and how to structure your web pages.</p>
+                            <a href="html.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/css.jpg" class="card-img-top" alt="CSS Tutorial">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS Styling</h5>
+                            <p class="card-text">Discover how to style your web pages with CSS, from basic styles to advanced layouts.</p>
+                            <a href="css.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/javascript.jpg" class="card-img-top" alt="JavaScript Tutorial">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Basics</h5>
+                            <p class="card-text">Get to grips with JavaScript to add interactivity and functionality to your websites.</p>
+                            <a href="javascript.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-4">
+            <h2>Resources</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.w3schools.com/css/" target="_blank">W3Schools - CSS</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://javascript.info/" target="_blank">JavaScript.info</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://reactjs.org/" target="_blank">React - Official Site</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://vuejs.org/" target="_blank">Vue.js - Official Site</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://angular.io/" target="_blank">Angular - Official Site</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="mt-4">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white mt-4 py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Frontend Learning Portal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
